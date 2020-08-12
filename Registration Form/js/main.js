@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyKPBf7iXibJIaWYyXWsqPGLUXlOMFsnKvZ_nnWy4sYtH9_N07X/exec'
+const scriptURL = 'https://script.google.com/macros/s...........'
     const form = document.forms['submit-to-google-sheet']
 
     form.addEventListener('submit', e => {
@@ -15,6 +15,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyKPBf7iXibJIaWYyXWsq
            window.location.reload();
        }
     });
+
+//Form not auto-refreshing , hence put Alerts to inform the user to manually refresh after clicking submit
 
     let btnClear = document.getElementById('btn')
     let inputs = document.querySelectorAll('input')
