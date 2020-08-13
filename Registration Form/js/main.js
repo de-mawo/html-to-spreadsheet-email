@@ -9,7 +9,7 @@ const scriptURL = 'https://script.google.com/macros/s...........'
         })
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
-        .finally(window.location.replace("https://dreamfactoryfoundation.org/register"))
+        .finally(window.location.replace("https://www.yoursite.org"))
 
        
     });
